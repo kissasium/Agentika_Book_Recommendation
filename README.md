@@ -107,6 +107,31 @@ Once you're inside the correct directory, run the following command to start the
 ```
 This will initiate the agent and allow you to interact with it via the terminal.
 
+
+
+# Troubleshooting
+
+If you encounter any issues during setup or while running the agent, consider the following:
+
+1. **Ensure Node.js is Installed Correctly**  
+   Make sure that **Node.js** is correctly installed and that its version is **>= 21**. You can check this by running the following command:
+
+   ```bash
+   node -v
+   ```
+   Check the terminal for any error messages that might provide clues to fix the issue.
+
+
    
+# Additional Notes
+
+- **Correct Directory**  
+  You must be inside the correct directory (where the agent files are located) when running the `usdk chat` command. If you're not in the right directory, the command will not work as expected.
+
+- **Customization**  
+  If you're customizing the agent, you can modify the agent files to suit your needs. This includes adjusting the agent's responses and adding new functionalities. Customizing the agent allows you to tailor its behavior to your specific use case.
+
+- **USDK Documentation**  
+  For more information about USDK and its additional features, refer to the official [USDK Documentation](https://www.usdk.io/docs). This documentation provides in-depth details about the platform and how you can utilize all its capabilities to create and manage agents effectively.
 
 
