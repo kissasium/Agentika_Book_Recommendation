@@ -45,7 +45,7 @@ You should see a version number that is **21 or higher**. For example:
 v21.3.0
 ```
 
-# Install USDK Command Line Tool
+# 2. Install USDK Command Line Tool
 
 To use the **USDK** platform for creating and managing agents, you need to install the **USDK** command-line tool globally on your system.
 
@@ -57,5 +57,22 @@ To use the **USDK** platform for creating and managing agents, you need to insta
 
    ```bash
    npm install -g usdk
-```
+  
+
+
+# Setting Up the Project
+
+## 3. Log In to USDK
+
+Once the **USDK** tool is installed, you need to log in using your **USDK** credentials.
+
+### Steps to Log In:
+1. Open your terminal.
+2. Run the following command to log in to **USDK**:
+
+   ```bash
+   usdk login
+
+   
+
 
