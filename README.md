@@ -61,9 +61,9 @@ To use the **USDK** platform for creating and managing agents, you need to insta
   
 
 
-# Setting Up the Project
+# 3. Setting Up the Project
 
-## 3. Log In to USDK
+##  Log In to USDK
 
 Once the **USDK** tool is installed, you need to log in using your **USDK** credentials.
 
@@ -75,7 +75,7 @@ Once the **USDK** tool is installed, you need to log in using your **USDK** cred
    usdk login
 ```
 
-## 4. Create a New Project
+## Create a New Project
 
 After logging in, create a new agent project using the following command:
 
@@ -86,9 +86,9 @@ This will generate the necessary files and folders for your agent. You can now m
 
 
 
-# Running the Chat Agent
+# 4. Running the Chat Agent
 
-## 5. Navigate to the Agent Directory
+## Navigate to the Agent Directory
 
 Before running the agent, make sure you're in the correct directory. Use the `cd` command to navigate to the agents folder, where the **agent** files are located. For example:
 
@@ -98,7 +98,7 @@ Before running the agent, make sure you're in the correct directory. Use the `cd
 
 Replace **YourAgentDirectory** with the name of the directory created during the project setup.
 
-## 6. Start the Agent
+## Start the Agent
 
 Once you're inside the correct directory, run the following command to start the chat agent:
 
