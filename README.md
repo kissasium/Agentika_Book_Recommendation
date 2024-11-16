@@ -1,6 +1,26 @@
 # Agent Chat Application
 
-This project allows you to create a custom chat agent using the **USDK** platform. Follow the instructions below to set up and run the agent.
+# Project Description
+
+**Agent Chat Application** is a custom chat agent built using the **USDK** platform. This project allows you to create, customize, and manage chat agents that can interact with users through a command-line interface (CLI). The main purpose of this application is to demonstrate how you can set up a basic chat agent that can be extended and customized to fit various use cases, such as customer support, virtual assistants, or information bots.
+
+### Features:
+- **Customizable Responses**: Modify the agent's responses to fit your needs.
+- **Easy Setup**: Set up the agent environment and start interacting with the agent using simple commands.
+- **Command-Line Interface**: Interact with the agent directly through the terminal for easy testing and development.
+
+---
+
+# API Used
+
+This project uses the **USDK (Universal Software Development Kit)** API, which provides the necessary tools and functionality for creating and managing chat agents. 
+
+### Key Features of the USDK API:
+- **Agent Creation**: Easily create new agents using simple commands.
+- **Authentication**: Securely log in to the USDK platform using your credentials.
+- **Customizable Logic**: Implement logic and customize the behavior of the agents.
+- **Agent Management**: Use commands to start, stop, and manage the lifecycle of agents from the terminal.
+
 
 ## Table of Contents
 
