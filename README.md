@@ -59,3 +59,63 @@ You are in the correct directory before running the usdk chat command.
 Ensure that the agents folder contains all the required files and configurations.
 If the agent is not running as expected, check the logs or console for any error messages.
 For additional customization and usage, refer to the official USDK documentation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Agent Chat Application
+
+This project allows you to create a custom chat agent using the **usdk** platform. Follow the instructions below to set up and run the agent.
+
+## Table of Contents
+
+1. [Prerequisites](#prerequisites)
+2. [Installation Steps](#installation-steps)
+    - [Install Node.js](#1-install-nodejs)
+    - [Install USDK Command Line Tool](#2-install-usdk-command-line-tool)
+3. [Setting Up the Project](#setting-up-the-project)
+    - [Log In to USDK](#3-log-in-to-usdk)
+    - [Create a New Project](#4-create-a-new-project)
+4. [Running the Chat Agent](#running-the-chat-agent)
+    - [Navigate to the Agent Directory](#5-navigate-to-the-agent-directory)
+    - [Start the Agent](#6-start-the-agent)
+5. [Troubleshooting](#troubleshooting)
+6. [Additional Notes](#additional-notes)
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed on your system:
+
+- **Node.js** (version >= 21)
+- **USDK Command Line Tool**
+
+## Installation Steps
+
+### 1. Install Node.js
+
+To use the **usdk** platform, you need to have **Node.js** version **21** or higher.
+
+#### Steps to Install Node.js:
+1. Go to the official **Node.js** website: [https://nodejs.org/](https://nodejs.org/)
+2. Download and install the latest version (>= 21) for your system.
+
+After installation, confirm that **Node.js** is installed by running the following command in your terminal:
+
+```bash
+node -v
+
