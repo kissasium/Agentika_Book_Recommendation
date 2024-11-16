@@ -38,7 +38,9 @@ After installation, confirm that **Node.js** is installed by running the followi
 
 ```bash
 node -v
+```
 You should see a version number that is **21 or higher**. For example:
 
 ```bash
 v21.3.0
+```
