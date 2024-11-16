@@ -44,3 +44,18 @@ You should see a version number that is **21 or higher**. For example:
 ```bash
 v21.3.0
 ```
+
+# Install USDK Command Line Tool
+
+To use the **USDK** platform for creating and managing agents, you need to install the **USDK** command-line tool globally on your system.
+
+## Steps to Install the USDK Command Line Tool
+
+1. Open your terminal.
+
+2. Run the following command to install **USDK** globally using **npm**:
+
+   ```bash
+   npm install -g usdk
+```
+
