@@ -55,8 +55,9 @@ To use the **USDK** platform for creating and managing agents, you need to insta
 
 2. Run the following command to install **USDK** globally using **npm**:
 
-   ```bash
+```bash
    npm install -g usdk
+```
   
 
 
@@ -70,8 +71,18 @@ Once the **USDK** tool is installed, you need to log in using your **USDK** cred
 1. Open your terminal.
 2. Run the following command to log in to **USDK**:
 
-   ```bash
+```bash
    usdk login
+```
+
+## 4. Create a New Project
+
+After logging in, create a new agent project using the following command:
+
+```bash
+   usdk create
+```
+This will generate the necessary files and folders for your agent. You can now modify and customize these files as needed.
 
    
 
