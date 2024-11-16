@@ -84,6 +84,29 @@ After logging in, create a new agent project using the following command:
 ```
 This will generate the necessary files and folders for your agent. You can now modify and customize these files as needed.
 
+
+
+# Running the Chat Agent
+
+## 5. Navigate to the Agent Directory
+
+Before running the agent, make sure you're in the correct directory. Use the `cd` command to navigate to the agents folder, where the **agent** files are located. For example:
+
+```bash
+   cd agents/YourAgentDirectory
+```
+
+Replace **YourAgentDirectory** with the name of the directory created during the project setup.
+
+## 6. Start the Agent
+
+Once you're inside the correct directory, run the following command to start the chat agent:
+
+```bash
+   usdk chat
+```
+This will initiate the agent and allow you to interact with it via the terminal.
+
    
 
 
