@@ -153,9 +153,6 @@ If you encounter any issues during setup or while running the agent, consider th
 - **Correct Directory**  
   You must be inside the correct directory (where the agent files are located) when running the `usdk chat` command. If you're not in the right directory, the command will not work as expected.
 
-- **Customization**  
-  If you're customizing the agent, you can modify the agent files to suit your needs. This includes adjusting the agent's responses and adding new functionalities. Customizing the agent allows you to tailor its behavior to your specific use case.
-
 - **USDK Documentation**  
   For more information about USDK and its additional features, refer to the official [USDK Documentation](https://docs.upstreet.ai/install). This documentation provides in-depth details about the platform and how you can utilize all its capabilities to create and manage agents effectively.
 
