@@ -20,7 +20,7 @@
    - The API returns a JSON response containing book details, including their titles, which are then displayed to the user as recommendations.
 
 2. **ElevenLabs TTS**:
-   - The application integrates the ElevenLabs Text-to-Speech (TTS) service for generating voice responses, enhancing user interaction with realistic audio output. The TTS service is configured using:
+   - The application uses ElevenLabs Text-to-Speech (TTS) service for generating voice responses, enhancing user interaction with realistic audio output.
      ```javascript
      <TTS voiceEndpoint="elevenlabs:scillia:kNBPK9DILaezWWUSHpF9" />
      ```
