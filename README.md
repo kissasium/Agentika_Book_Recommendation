@@ -1,25 +1,29 @@
-# Agent Chat Application
+# Agentika Book Recommendation
 
-# Project Description
+## Project Description
 
-**Agent Chat Application** is a custom chat agent built using the **USDK** platform. This project allows you to create, customize, and manage chat agents that can interact with users through a command-line interface (CLI). The main purpose of this application is to demonstrate how you can set up a basic chat agent that can be extended and customized to fit various use cases, such as customer support, virtual assistants, or information bots.
+**Agentika Book Recommendation** is a custom chat agent built using the **React Agents** library. This project provides a simple and interactive way to fetch and recommend fiction books to users using an external API. The main purpose of this application is to showcase how a basic chat agent can be set up with customizable prompts and integrated with an API for delivering dynamic content, such as book recommendations.
 
-### Features:
-- **Customizable Responses**: Modify the agent's responses to fit your needs.
-- **Easy Setup**: Set up the agent environment and start interacting with the agent using simple commands.
-- **Command-Line Interface**: Interact with the agent directly through the terminal for easy testing and development.
+### Features
+- **API Integration**: Fetches live book recommendations using the Open Library API.
+- **Text-to-Speech (TTS)**: Uses ElevenLabs for realistic voice responses.
+- **Customizable Agent Prompts**: Easily modifiable prompts for user interaction.
+- **Command-Line Interface (CLI)**: Built with a responsive and straightforward interface for easy usage and testing.
 
----
+## APIs and External Tools Integrated
 
-# API Used
+1. **Open Library API**:
+   - This external API is used to fetch a list of fiction books. The application sends a GET request to the Open Library API endpoint:
+     ```url
+     https://openlibrary.org/subjects/fiction.json?limit=5
+     ```
+   - The API returns a JSON response containing book details, including their titles, which are then displayed to the user as recommendations.
 
-This project uses the **USDK (Universal Software Development Kit)** API, which provides the necessary tools and functionality for creating and managing chat agents. 
-
-### Key Features of the USDK API:
-- **Agent Creation**: Easily create new agents using simple commands.
-- **Authentication**: Securely log in to the USDK platform using your credentials.
-- **Customizable Logic**: Implement logic and customize the behavior of the agents.
-- **Agent Management**: Use commands to start, stop, and manage the lifecycle of agents from the terminal.
+2. **ElevenLabs TTS**:
+   - The application integrates the ElevenLabs Text-to-Speech (TTS) service for generating voice responses, enhancing user interaction with realistic audio output. The TTS service is configured using:
+     ```javascript
+     <TTS voiceEndpoint="elevenlabs:scillia:kNBPK9DILaezWWUSHpF9" />
+     ```
 
 
 ## Table of Contents
@@ -130,7 +134,7 @@ This will initiate the agent and allow you to interact with it via the terminal.
 
 
 
-# Troubleshooting
+# 5. Troubleshooting
 
 If you encounter any issues during setup or while running the agent, consider the following:
 
@@ -144,7 +148,7 @@ If you encounter any issues during setup or while running the agent, consider th
 
 
    
-# Additional Notes
+# 6. Additional Notes
 
 - **Correct Directory**  
   You must be inside the correct directory (where the agent files are located) when running the `usdk chat` command. If you're not in the right directory, the command will not work as expected.
@@ -156,7 +160,7 @@ If you encounter any issues during setup or while running the agent, consider th
   For more information about USDK and its additional features, refer to the official [USDK Documentation](https://docs.upstreet.ai/install). This documentation provides in-depth details about the platform and how you can utilize all its capabilities to create and manage agents effectively.
 
 
-  ## Demo Video
+  ## 7. Demo Video
 ![Watch the demo](BookRecommendationRecording.mp4)
 
 
