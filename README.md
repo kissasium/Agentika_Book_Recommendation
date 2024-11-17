@@ -161,9 +161,6 @@ If you encounter any issues during setup or while running the agent, consider th
 
 
   ## 7. Demo Video
-<video width="600" controls>
-  <source src="BookRecommendationRecording.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[Download the Demo Video](BookRecommendationRecording.mp4)
 
 
