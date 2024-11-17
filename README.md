@@ -39,8 +39,7 @@
     - [Navigate to the Agent Directory](#5-navigate-to-the-agent-directory)
     - [Start the Agent](#6-start-the-agent)
 5. [Troubleshooting](#troubleshooting)
-6. [Additional Notes](#additional-notes)
-7. [Demo Video](#Demo-video)
+6. [Demo Video](#Demo-video)
 
 ## Prerequisites
 
