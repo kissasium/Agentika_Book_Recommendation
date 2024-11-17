@@ -36,6 +36,7 @@ This project uses the **USDK (Universal Software Development Kit)** API, which p
     - [Start the Agent](#6-start-the-agent)
 5. [Troubleshooting](#troubleshooting)
 6. [Additional Notes](#additional-notes)
+7. [Demo Video](#Demo-video)
 
 ## Prerequisites
 
@@ -153,5 +154,9 @@ If you encounter any issues during setup or while running the agent, consider th
 
 - **USDK Documentation**  
   For more information about USDK and its additional features, refer to the official [USDK Documentation](https://docs.upstreet.ai/install). This documentation provides in-depth details about the platform and how you can utilize all its capabilities to create and manage agents effectively.
+
+
+  ## Demo Video
+![Watch the demo](demo/BookRecommendationRecording.mp4)
 
 
