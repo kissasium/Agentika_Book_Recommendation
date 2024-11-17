@@ -157,6 +157,6 @@ If you encounter any issues during setup or while running the agent, consider th
 
 
   ## Demo Video
-![Watch the demo](demo/BookRecommendationRecording.mp4)
+![Watch the demo](BookRecommendationRecording.mp4)
 
 
